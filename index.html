@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ГазпромБанк</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,900" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="page">
+
+  <aside class="aside">
+    <div class="aside-logo">
+      Газпром<span>Банк</span>
+    </div>
+    <div class="aside-dashboard">
+      <div class="aside-dashboard__title">
+        Dashboard
+        <span>4</span>
+      </div>
+      <div class="aside-dashboard-list">
+        <div class="aside-dashboard-list-item --active">
+          Общая информация
+        </div>
+        <div class="aside-dashboard-list-item">
+          Отраслевая аналитика
+        </div>
+        <div class="aside-dashboard-list-item">
+          Мои клиенты
+        </div>
+        <div class="aside-dashboard-list-item">
+          Планирование
+        </div>
+        <div class="aside-dashboard-list-item">
+          Стратегия
+        </div>
+        <div class="aside-dashboard-list-item">
+          Менеджер активности
+        </div>
+        <div class="aside-dashboard-list-item">
+          Мой Dashboard
+        </div>
+        <div class="aside-dashboard-list-item">
+          KPI
+        </div>
+        <div class="aside-dashboard-list-item">
+          Календарь
+        </div>
+        <div class="aside-dashboard-list-item">
+          Поддержка
+        </div>
+      </div>
+    </div>
+
+    <div class="aside-components">
+      <div class="aside-components__title">
+        Компоненты
+      </div>
+      <div class="aside-components-list">
+        <div class="aside-components-list-item">
+          Модули
+        </div>
+        <div class="aside-components-list-item">
+          Элементы UI
+        </div>
+        <div class="aside-components-list-item">
+          Диаграммы
+        </div>
+        <div class="aside-components-list-item">
+          Графики
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <div class="content">
+    <header class="header">
+      <div class="header-dropdown">
+        <div class="header-dropdown__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="26" viewBox="0 0 23 26"><defs><path id="q9e6a" d="M260 23.24v9.52c0 .89.47 1.7 1.24 2.15l8.25 4.76c.76.44 1.7.44 2.47 0l8.25-4.76a2.47 2.47 0 0 0 1.24-2.15v-9.52c0-.89-.47-1.7-1.24-2.15l-8.25-4.76a2.48 2.48 0 0 0-2.47 0l-8.25 4.76a2.47 2.47 0 0 0-1.24 2.15z"/></defs><g><g transform="translate(-259 -15)"><use fill="#fff" fill-opacity="0" stroke="#8998ac" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="50" xlink:href="#q9e6a"/></g></g></svg>
+        </div>
+        <div class="header-dropdown__title">
+          APP
+        </div>
+        <div class="header-dropdown__new-tag">
+          Новое
+        </div>
+      </div>
+
+      <div class="header-dropdown">
+        <div class="header-dropdown__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="25" viewBox="0 0 26 25"><defs><path id="56g3a" d="M467.65 22.17h-23.89"/><path id="56g3b" d="M465.21 39.45h-18a2.94 2.94 0 0 1-2.95-2.94V18.94A2.94 2.94 0 0 1 447.2 16h18.01a2.94 2.94 0 0 1 2.94 2.94v17.57a2.94 2.94 0 0 1-2.94 2.94z"/><path id="56g3c" d="M449.68 34.87l4.02-4.03a.74.74 0 0 1 1.05 0l2.03 2.04c.29.28.76.28 1.04 0l5.15-5.15"/><path id="56g3d" d="M459.52 27.73h3.45v3.45"/></defs><g><g transform="translate(-443 -15)"><g><use fill="#fff" fill-opacity="0" stroke="#8998ac" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="50" xlink:href="#56g3a"/></g><g><use fill="#fff" fill-opacity="0" stroke="#8998ac" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="50" xlink:href="#56g3b"/></g><g><use fill="#fff" fill-opacity="0" stroke="#8998ac" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="50" xlink:href="#56g3c"/></g><g><use fill="#fff" fill-opacity="0" stroke="#8998ac" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="50" xlink:href="#56g3d"/></g></g></g></svg>
+        </div>
+        <div class="header-dropdown__title">
+          Отчеты
+        </div>
+      </div>
+
+      <div class="header-dropdown">
+        <div class="header-dropdown__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="26" viewBox="0 0 24 26"><defs><path id="xp9aa" d="M601.03 31.77V18.9c0-1.3.83-2.51 2.09-2.82a2.73 2.73 0 0 1 3.4 2.66v5.73c0 .55.34 1.05.85 1.27l6.1 2.52a2.75 2.75 0 0 1 1.62 3.19l-1.83 7.5c-.15.62-.7 1.05-1.34 1.05h-9.84c-.36 0-.71-.15-.97-.4l-7.21-7.22c-1.06-1.05-1.24-2.79-.25-3.9a2.68 2.68 0 0 1 2.05-.93c.7 0 1.4.27 1.93.81z"/></defs><g><g transform="translate(-592 -15)"><use fill="#fff" fill-opacity="0" stroke="#8998ac" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="50" xlink:href="#xp9aa"/></g></g></svg>
+        </div>
+        <div class="header-dropdown__title">
+          Действия
+        </div>
+      </div>
+
+      <div class="header-search"></div>
+      <div class="header-notifications"></div>
+      <div class="header-avatar"></div>
+      <div class="header-menu-button"></div>
+    </header>
+    
+    <div class="subheader">
+      <div class="search">
+        <input type="text" class="search-input" placeholder="Начните ввод для поиска…">
+        <div class="search-icon"></div>
+      </div>
+
+      <div class="breadcrumbs">
+        <div class="breadcrumbs-item">
+          Главная
+        </div>
+        <div class="breadcrumbs-item">
+          Dashboard
+        </div>
+        <div class="breadcrumbs-item">
+          Общ
+        </div>
+      </div>
+    </div>
+    
+    <div class="blocks-container">
+
+      <div class="block-row">
+        <div class="dynamic">
+          <div class="dynamic__title">
+            <span>Динамика портфеля по активам и пассивам</span>
+        
+            <div class="dropdown">млрд</div>
+            <div class="dropdown">RUB</div>
+          </div>
+          <div class="dynamic-graph">
+            <img src="images/dynamic-graph.png" alt>
+          </div>
+        </div>
+        
+        <div class="block-column" style="flex-grow: 1;">
+          <div class="activity">
+            <div class="activity__title">
+              <span>Активность клиентских менеджеров</span>
+              <div class="dropdown">7 дней</div>
+            </div>
+            <div class="activity-block-wrapper">
+              <div class="activity-block">
+                <div class="activity-block__plan">
+                  План 10 Факт 9
+                </div>
+                <div class="activity-block__percent">
+                  90%
+                </div>
+                <div class="activity-block__dropdown">
+                  Назначено встреч
+                </div>
+          
+                <!-- <div class="activity-block__circle"></div> -->
+              </div>
+          
+              <div class="activity-block">
+                <div class="activity-block__plan">
+                  План 10 Факт 7
+                </div>
+                <div class="activity-block__percent">
+                  80%
+                </div>
+                <div class="activity-block__dropdown">
+                  Назначено встреч
+                </div>
+          
+                <!-- <div class="activity-block__circle"></div> -->
+              </div>
+          
+              <div class="activity-block">
+                <div class="activity-block__plan">
+                  План 10 Факт 7
+                </div>
+                <div class="activity-block__percent">
+                  65%
+                </div>
+                <div class="activity-block__dropdown">
+                  Назначено встреч
+                </div>
+          
+                <!-- <div class="activity-block__circle"></div> -->
+              </div>
+          
+              <div class="activity-block">
+                <div class="activity-block__plan">
+                  План 10 Факт 9
+                </div>
+                <div class="activity-block__percent">
+                  82%
+                </div>
+                <div class="activity-block__dropdown">
+                  Назначено встреч
+                </div>
+          
+                <!-- <div class="activity-block__circle"></div> -->
+              </div>
+          
+              <div class="activity-block">
+                <div class="activity-block__plan">
+                  План 10 Факт 9
+                </div>
+                <div class="activity-block__percent">
+                  79%
+                </div>
+                <div class="activity-block__dropdown">
+                  Назначено встреч
+                </div>
+          
+                <!-- <div class="activity-block__circle"></div> -->
+              </div>
+          
+              <div class="activity-block">
+                <div class="activity-block__plan">
+                  План 10 Факт 9
+                </div>
+                <div class="activity-block__percent">
+                  84%
+                </div>
+                <div class="activity-block__dropdown">
+                  Назначено встреч
+                </div>
+          
+                <!-- <div class="activity-block__circle"></div> -->
+              </div>
+            </div>
+          
+          </div>
+
+          <div class="deviations">
+            <div class="deviations__title">Сигналы по отклонениям</div>
+            <div class="deviations-block-wrapper">
+              <div class="deviations-block">
+                <div class="deviations-block__title">Трансфер</div>
+                <div class="deviations-block__percent">7.93%</div>
+                <div class="deviations-block__arrow"></div>
+              </div>
+
+              <div class="deviations-block">
+                <div class="deviations-block__title">Указать</div>
+                <div class="deviations-block__percent">+ 5%</div>
+                <div class="deviations-block__arrow"></div>
+              </div>
+
+              <div class="deviations-block --down">
+                <div class="deviations-block__title">Указать</div>
+                <div class="deviations-block__percent">- 5%</div>
+                <div class="deviations-block__arrow"></div>
+              </div>
+
+              <div class="deviations-block --down">
+                <div class="deviations-block__title">Watch List (СРП)</div>
+                <div class="deviations-block__percent">7.93%</div>
+                <div class="deviations-block__arrow"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      
+
+      <div class="block-row">
+        <div class="managers">
+          <div class="managers__title">
+            Менеджеры
+          </div>
+          <div class="managers-wrapper">
+            <div class="managers-block --online">
+              <div class="managers-block__avatar">
+                <!-- <img src="images/avatar_2.png" alt=""> -->
+              </div>
+              <div class="managers-block__post">Должность</div>
+              <div class="managers-block__name">Имя Фамилия</div>
+              <div class="managers-block__menu-button"></div>
+            </div>
+            <div class="managers-block">
+              <div class="managers-block__avatar">
+                <!-- <img src="images/avatar_2.png" alt=""> -->
+              </div>
+              <div class="managers-block__post">Должность</div>
+              <div class="managers-block__name">Имя Фамилия</div>
+              <div class="managers-block__menu-button"></div>
+            </div>
+            <div class="managers-block">
+              <div class="managers-block__avatar">
+                <!-- <img src="images/avatar_2.png" alt=""> -->
+              </div>
+              <div class="managers-block__post">Должность</div>
+              <div class="managers-block__name">Имя Фамилия</div>
+              <div class="managers-block__menu-button"></div>
+            </div>
+            <div class="managers-block --online">
+              <div class="managers-block__avatar">
+                <!-- <img src="images/avatar_2.png" alt=""> -->
+              </div>
+              <div class="managers-block__post">Должность</div>
+              <div class="managers-block__name">Имя Фамилия</div>
+              <div class="managers-block__menu-button"></div>
+            </div>
+            <div class="managers-block">
+              <div class="managers-block__avatar">
+                <!-- <img src="images/avatar_2.png" alt=""> -->
+              </div>
+              <div class="managers-block__post">Должность</div>
+              <div class="managers-block__name">Имя Фамилия</div>
+              <div class="managers-block__menu-button"></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="kpi">
+          <div class="kpi__title">Kpi</div>
+          <div class="dropdown">Операционный результат</div>
+          <div class="kpi__image">
+            <img src="images/kpi-image.png" alt>
+          </div>
+          <div class="kpi-progress-wrapper">
+            <div class="kpi-progress">
+              <div class="kpi-progress__title">
+                Кредитные продукты
+              </div>
+              <div class="kpi-progress__value">
+                <strong>2,010</strong> (50%)
+              </div>
+              <div class="kpi-progress__bar"></div>
+            </div>
+        
+            <div class="kpi-progress">
+              <div class="kpi-progress__title">
+                Привлечение
+              </div>
+              <div class="kpi-progress__value">
+                <strong>987</strong> (20%)
+              </div>
+              <div class="kpi-progress__bar"></div>
+            </div>
+        
+            <div class="kpi-progress">
+              <div class="kpi-progress__title">
+                Комиссии
+              </div>
+              <div class="kpi-progress__value">
+                <strong>1,320</strong> (30%)
+              </div>
+              <div class="kpi-progress__bar"></div>
+            </div>
+        
+            <div class="kpi-progress">
+              <div class="kpi-progress__title">
+                Всего
+              </div>
+              <div class="kpi-progress__value">
+                <strong>654</strong> (15%)
+              </div>
+              <div class="kpi-progress__bar"></div>
+            </div>
+          </div>
+        
+        </div>
+        
+        <div class="news">
+          <div class="news__title">
+            <span>Новости</span>
+            <div class="dropdown">Сегодня</div>
+          </div>
+          <div class="news-wrapper">
+            <div class="news-block">
+              <div class="news-block__image">
+                <img src="images/news-image.jpg" alt>
+              </div>
+              <div class="news-block__title">Why Everyone Missed the Most Mind-Blowing</div>
+              <div class="news-block__text">There’s one incredible feature of cryptocurrencie…</div>
+              <div class="news-block__date">Jul 31, 2018</div>
+              <div class="news-block__name">Daniel Jeffries</div>
+            </div>
+
+            <div class="news-block">
+              <div class="news-block__image">
+                <img src="images/news-image.jpg" alt>
+              </div>
+              <div class="news-block__title">Why Everyone Missed the Most Mind-Blowing</div>
+              <div class="news-block__text">There’s one incredible feature of cryptocurrencie…</div>
+              <div class="news-block__date">Jul 31, 2018</div>
+              <div class="news-block__name">Daniel Jeffries</div>
+            </div>
+
+            <div class="news-block">
+              <div class="news-block__image">
+                <img src="images/news-image.jpg" alt>
+              </div>
+              <div class="news-block__title">Why Everyone Missed the Most Mind-Blowing</div>
+              <div class="news-block__text">There’s one incredible feature of cryptocurrencie…</div>
+              <div class="news-block__date">Jul 31, 2018</div>
+              <div class="news-block__name">Daniel Jeffries</div>
+            </div>
+
+            <div class="news-block">
+              <div class="news-block__image">
+                <img src="images/news-image.jpg" alt>
+              </div>
+              <div class="news-block__title">Why Everyone Missed the Most Mind-Blowing</div>
+              <div class="news-block__text">There’s one incredible feature of cryptocurrencie…</div>
+              <div class="news-block__date">Jul 31, 2018</div>
+              <div class="news-block__name">Daniel Jeffries</div>
+            </div>
+
+            <div class="news-block">
+              <div class="news-block__image">
+                <img src="images/news-image.jpg" alt>
+              </div>
+              <div class="news-block__title">Why Everyone Missed the Most Mind-Blowing</div>
+              <div class="news-block__text">There’s one incredible feature of cryptocurrencie…</div>
+              <div class="news-block__date">Jul 31, 2018</div>
+              <div class="news-block__name">Daniel Jeffries</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="block-column" style="flex-basis: 21.5%; margin-right: 0.41667%;">
+          <div class="client-events">
+            <div class="client-events__title">
+              <span>События по клиентам</span>
+              <div class="dropdown">Топ-10</div>
+              <div class="dropdown">Сегодня</div>
+            </div>
+          </div>
+
+          <div class="top-clients">
+            <div class="top-clients__title">
+              <span>Топ-5 клиентов</span>
+              <div class="dropdown">Опер. рез</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="block-column" style="flex-basis: 23.3334%;">
+          <div class="calendar">
+            <div class="calendar__title">
+              <span>Календарь</span>
+              <div class="dropdown">Фев, 2019</div>
+            </div>
+          
+            <div class="calendar-wrapper">
+              <div class="calendar-row">
+                <div class="calendar-cell">S</div>
+                <div class="calendar-cell">M</div>
+                <div class="calendar-cell">T</div>
+                <div class="calendar-cell">W</div>
+                <div class="calendar-cell">T</div>
+                <div class="calendar-cell">F</div>
+                <div class="calendar-cell">S</div>
+              </div>
+          
+              <div class="calendar-row">
+                <div class="calendar-cell --disabled">30</div>
+                <div class="calendar-cell --disabled">31</div>
+                <div class="calendar-cell">1</div>
+                <div class="calendar-cell">2</div>
+                <div class="calendar-cell">3</div>
+                <div class="calendar-cell">4</div>
+                <div class="calendar-cell">5</div>
+              </div>
+              <div class="calendar-row">
+                <div class="calendar-cell">6</div>
+                <div class="calendar-cell">7</div>
+                <div class="calendar-cell">8</div>
+                <div class="calendar-cell --period-start">9</div>
+                <div class="calendar-cell">10</div>
+                <div class="calendar-cell">11</div>
+                <div class="calendar-cell">12</div>
+              </div>
+              <div class="calendar-row">
+                <div class="calendar-cell --period-start">13</div>
+                <div class="calendar-cell">14</div>
+                <div class="calendar-cell">15</div>
+                <div class="calendar-cell">16</div>
+                <div class="calendar-cell">17</div>
+                <div class="calendar-cell">18</div>
+                <div class="calendar-cell">19</div>
+              </div>
+              <div class="calendar-row">
+                <div class="calendar-cell --period-start">20</div>
+                <div class="calendar-cell">21</div>
+                <div class="calendar-cell --period-end">22</div>
+                <div class="calendar-cell">23</div>
+                <div class="calendar-cell">24</div>
+                <div class="calendar-cell">25</div>
+                <div class="calendar-cell">26</div>
+              </div>
+              <div class="calendar-row">
+                <div class="calendar-cell">27</div>
+                <div class="calendar-cell">28</div>
+                <div class="calendar-cell">29</div>
+                <div class="calendar-cell">30</div>
+                <div class="calendar-cell">31</div>
+                <div class="calendar-cell"></div>
+                <div class="calendar-cell"></div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="meetings">
+            <div class="meetings__title">Запланированые встречи</div>
+            <div class="meetings-wrapper">
+              <div class="meetings-block --active">
+                <div class="meetings-block__date">Фев 18 Понедельник | 10:00 - 12:00</div>
+                <div class="meetings-block__title">Компания А</div>
+                <div class="meetings-block__type --orange">Переговоры</div>
+              </div>
+
+              <div class="meetings-block">
+                <div class="meetings-block__date">Фев 20 Среда | 13:00 - 17:00</div>
+                <div class="meetings-block__title">Компания Б</div>
+                <div class="meetings-block__type --yellow">Предложение</div>
+              </div>
+
+              <div class="meetings-block">
+                <div class="meetings-block__date">Фев 26 Вторник | 12:00 - 14:00</div>
+                <div class="meetings-block__title">Компания В</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+  
+</div>  
+</body>
+</html>
